@@ -1,0 +1,95 @@
+#carouselExampleIndicators {
+    width: 60%;
+    height: 40%;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#navbar {
+    background-color: #D9C477;
+    size: 20%;
+}
+
+.mobil {
+    padding-left: 60%;
+}
+
+.Texto_1 {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.carousel-inner {
+    width: 60%;
+    height: 40%;
+    object-fit: contain;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column2 {
+    width: 50%;
+    margin-left: 15%;
+    margin-right: 15%;
+    float: left;
+}
+
+.carta {
+    margin-top: 5%;
+    margin-left: 15%;
+    display: inline-block;
+    position: relative;
+}
+
+#mapa {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.boton_carta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.horario {
+    display: inline-block;
+    position: absolute;
+    object-fit: contain;
+    padding-left: 17%;
+    margin-top: 8%;
+}
+
+.img1 {
+    height: 60%;
+    width: 60%;
+}
+
+.platos {
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 5%;
+    position: relative;
+}
+
+.platos1 {
+    height: 250px;
+    width: 250px;
+    margin: 5%;
+    border-radius: 3%;
+}
+
+.platos2 {
+    height: 200px;
+    width: 300px;
+    margin: 2%;
+    border-radius: 3%;
+}
