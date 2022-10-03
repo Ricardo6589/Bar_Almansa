@@ -79,6 +79,12 @@
     background-color: #4e220c;
 }
 
+.column35 {
+    width: 35%;
+    float: left;
+    background-color: #4e220c;
+}
+
 .column15 {
     width: 15%;
     float: left;
@@ -88,7 +94,7 @@
     margin-top: 5%;
     display: inline-block;
     position: relative;
-    margin-left: 5%;
+    margin-left: 15%;
 }
 
 #mapa {
@@ -96,6 +102,11 @@
     display: inline-block;
     position: relative;
     margin-left: 5%;
+}
+
+.mapa {
+    width: 62vw;
+    height: 25vh;
 }
 
 .boton_carta {
@@ -123,6 +134,7 @@
 .img1 {
     height: 50%;
     width: 50%;
+    object-fit: contain;
 }
 
 .platos {
@@ -157,16 +169,21 @@
     .column70 {
         width: 100%;
     }
+    .column35 {
+        width: 100%;
+    }
     .carta {
         height: 20%;
-        width: 20%;
-    }
-    .mapa {
-        width: 10px;
-        object-fit: contain;
+        width: 100%;
     }
     .horario {
-        display: inline-block;
+        height: 20%;
+        width: 100%;
+    }
+    .mapa {
+        width: 90vw;
+        height: 40vh;
+        margin-top: 70%;
     }
     .carouselExampleIndicators {
         height: 10vh;
